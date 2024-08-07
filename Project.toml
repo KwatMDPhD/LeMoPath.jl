@@ -1,0 +1,13 @@
+name = "LeMoPath"
+uuid = "8e097848-28f7-4c3c-9bb0-4900de2316d7"
+authors = ["KwatMDPhD"]
+version = "0.1.0"
+
+[deps]
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test"]
